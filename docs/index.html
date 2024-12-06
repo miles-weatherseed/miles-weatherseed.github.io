@@ -42,7 +42,7 @@
         <h1 class="hero-title load-hidden">
           Hi, my name is <span class="text-color-main">Miles Weatherseed</span>
           <br>
-          I'm a postdoctoral researcher.
+          I'm a postdoctoral researcher at the University of Oxford.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a>
@@ -64,10 +64,10 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                I am a mathematician, currently developing novel predictive algorithms to identify immunogenic targets for cancer vaccines.
+                I am a 27 year-old mathematician, currently focused on developing novel predictive algorithms to identify immunogenic targets for cancer vaccines.
               </p>
               <p class="about-wrapper__info-text">
-                In my spare time, I enjoy puzzles, games, and middle distance running.
+                In my spare time, I enjoy puzzles, games, crosswords, and middle distance running.
               </p>
               <span class="d-flex mt-3">
                 <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="/assets/resume.pdf">
@@ -89,7 +89,7 @@
 
           <!-- Notice: each .row is a project -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-5 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">POEM: Prediction Of immunogenic Epitopes using Mechanistic modelling</h3>
                 <div>
@@ -108,7 +108,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-7 col-sm-12">
               <div class="project-wrapper__image load-hidden">
                 <a rel="noreferrer" href="#!" target="_blank">
                   <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
@@ -122,7 +122,7 @@
 
           <!-- Notice: each .row is a project -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-5 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Inference of MHC-I from peptide ligands</h3>
                 <div>
@@ -130,7 +130,7 @@
                     Immune cells present peptides on their cell surface in proteins known as MHC-I. The binding affinity and stability between peptides and MHC-I is key to the efficacy of the associated immune response, so predicting these quantaties is desirable. Predictive models are trained using peptide ligands eluted from the surface of cells and identified by mass spectrometry. However, humans have up to 6 different types (alleles) of MHC-I, so it is non-trivial to identify which peptides were bound to each MHC-I allele.
                   </p>
                   <p class="mb-4">
-                    To address this, I fine-tuned a pre-trained protein language model (ESM-2) to predict MHC-I given the peptide sequence. The resulting model could accurately deconvolute multi-allelic mass spectrometry datasets.
+                    To address this, I fine-tuned a large protein language model (ESM-2) to predict p(MHC-I | peptide). The resulting model could accurately deconvolute multi-allelic mass spectrometry datasets.
                   </p>
                 </div>
                 <!-- <a
@@ -151,11 +151,11 @@
                 </a> -->
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-7 col-sm-12">
               <div class="project-wrapper__image load-hidden">
                 <a rel="noreferrer" href="#!" target="_blank">
                   <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
-                    <img alt="Project Image" class="img-fluid" src="/project.f500882b.jpg">
+                    <img alt="Project Image" class="img-fluid" src="/immunopeptidomics-banner.4f06b64a.jpeg">
                   </div>
                 </a>
               </div>
@@ -165,12 +165,41 @@
 
           <!-- Notice: each .row is a project -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-5 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Coarse Grained Molecular Dynamics</h3>
+                <div>
+                  <p class="mb-4">
+                    For my Master's dissertation, I investigated methods of improving molecular dynamic simulation efficiency. I proposed a new method which divides the simulation domain, using coarser Langevin dynamics away from regions of interest and molecular dynamics in regions requiring more detail.
+                  </p>
+                </div>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                  Project Report
+                </a>
+                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#!">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-7 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="/Masters%20Thesis%20Picture.fa085258.png">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-5 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Molecular Dynamic Dimer Simulations</h3>
                 <div>
                   <p class="mb-4">
-                    As part of a project for the Oxford Mathematics course "Topics in Computational Biology", I developed a 
+                    As part of a project for the Oxford Mathematics course "Topics in Computational Biology", I developed a...
                   </p>
                 </div>
                 <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/miles-weatherseed/Molecular_Dynamics_Dimers/blob/main/TiCB19%20Molecular%20Dynamics%20for%20Modelling%20Dimers.pdf">
@@ -181,7 +210,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-7 col-sm-12">
               <div class="project-wrapper__image load-hidden">
                 <a rel="noreferrer" href="#!" target="_blank">
                   <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
