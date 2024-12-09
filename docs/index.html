@@ -42,7 +42,7 @@
         <h1 class="hero-title load-hidden">
           Hi, my name is <span class="text-color-main">Miles Weatherseed</span>
           <br>
-          I'm a postdoctoral researcher at the University of Oxford.
+          I'm a postdoctoral researcher at the University of Oxford
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a>
@@ -94,16 +94,48 @@
                 <h3 class="project-wrapper__text-title">POEM: Prediction Of immunogenic Epitopes using Mechanistic modelling</h3>
                 <div>
                   <p class="mb-4">
-                    Machine learning is only as good as its training data. Existing predictive models of class I antigen presentation rely on semi-quantitative data from mass spectrometry, which is not optimal. We predicted that we could improve antigen presentation predictions by developing a mechanistic model of the underlying biochemistry.
+                    POEM is a machine learning algorithm designed to predict vaccination targets for cancer and pathogens by integrating mechanistic modelling of the class I antigen processing pathway. This approach overcomes limitations in existing data-driven models.
                   </p>
                   <p class="mb-4">
-                    The resulting model appears to enhance predictions. Furthermore, immunogenicity classifiers trained using these mechanistic predictions appear to outperform the state-of-the-art across a wide range of tasks.
+                    The algorithm demonstrates superior predictive performance compared to state-of-the-art methods across diverse benchmarks, including cancer and SARS-CoV-2 datasets. It has garnered significant interest from leading pharmaceutical companies such as BioNTech and GSK.
                   </p>
                 </div>
-                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://ora4-prd.bodleian.ox.ac.uk/objects/uuid:b91278eb-16d0-4c00-8844-3c5499079ff9">
+                  Read More
                 </a>
-                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/miles-weatherseed/POEM">
+                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/miles-weatherseed/POEM/tree/main/lib/poem">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-7 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="/POEM_Algo_Picture.3b5d90f5.png">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <div class="row">
+            <div class="col-lg-5 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Mechanistic Model of the Antigen Processing Pathway</h3>
+                <div>
+                  <p class="mb-4">
+                    This project involved developing a mechanistic systems biology model to represent the complex biochemistry of the class I antigen processing pathway. The model uses a system of ordinary differential equations to simulate key immunological processes.
+                  </p>
+                  <p class="mb-4">
+                    Parameters were estimated using Bayesian inference with MCMC and supervised learning techniques. The resulting model outperformed data-driven approaches in predicting antigen presentation, addressing limitations in training data widely used by other algorithms.
+                  </p>
+                </div>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://ora4-prd.bodleian.ox.ac.uk/objects/uuid:b91278eb-16d0-4c00-8844-3c5499079ff9">
+                  Read More
+                </a>
+                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/miles-weatherseed/POEM/tree/main/lib/mechanistic_model">
                   Source Code
                 </a>
               </div>
@@ -118,8 +150,6 @@
               </div>
             </div>
           </div>
-          <!-- /END Project -->
-
           <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-5 col-sm-12">
@@ -130,7 +160,7 @@
                     Immune cells present peptides on their cell surface in proteins known as MHC-I. The binding affinity and stability between peptides and MHC-I is key to the efficacy of the associated immune response, so predicting these quantaties is desirable. Predictive models are trained using peptide ligands eluted from the surface of cells and identified by mass spectrometry. However, humans have up to 6 different types (alleles) of MHC-I, so it is non-trivial to identify which peptides were bound to each MHC-I allele.
                   </p>
                   <p class="mb-4">
-                    To address this, I fine-tuned a large protein language model (ESM-2) to predict p(MHC-I | peptide). The resulting model could accurately deconvolute multi-allelic mass spectrometry datasets.
+                    To address this, I fine-tuned a large protein language model (ESM-2) to predict p(MHC-I | peptide). The resulting model could accurately deconvolute multi-allelic mass spectrometry datasets. This work was completed while working at Synteny Biotechnology so is not public.
                   </p>
                 </div>
                 <!-- <a
@@ -167,46 +197,17 @@
           <div class="row">
             <div class="col-lg-5 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Coarse Grained Molecular Dynamics</h3>
-                <div>
-                  <p class="mb-4">
-                    For my Master's dissertation, I investigated methods of improving molecular dynamic simulation efficiency. I proposed a new method which divides the simulation domain, using coarser Langevin dynamics away from regions of interest and molecular dynamics in regions requiring more detail.
-                  </p>
-                </div>
-                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  Project Report
-                </a>
-                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-7 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
-                    <img alt="Project Image" class="img-fluid" src="/Masters%20Thesis%20Picture.fa085258.png">
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-5 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Molecular Dynamic Dimer Simulations</h3>
                 <div>
                   <p class="mb-4">
-                    As part of a project for the Oxford Mathematics course "Topics in Computational Biology", I developed a...
+                    As part of a short project for the Oxford Mathematics course "Topics in Computational Biology", I validated the consistency of two different methods for simulating the movement of a dimer. First, I considered a mesoscopic description of a dimer as two spheres moving under the action of a potential. I solved this system of stochastic differential equations analytically to find the expected bond length. I then compared this to a molecular dynamics simulation, replacing Brownian dynamics with a theoretical heat bath model. Simulating this with an event-driven timestep yielded results consistent with the mesoscopic model.
+                  </p>
+                  <p class="mb-4">
+                    I no longer have the source code used for this study but pseudocode used to simulate the dimer can be found in the report (Algorithm 1).
                   </p>
                 </div>
                 <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/miles-weatherseed/Molecular_Dynamics_Dimers/blob/main/TiCB19%20Molecular%20Dynamics%20for%20Modelling%20Dimers.pdf">
                   Project Report
-                </a>
-                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
                 </a>
               </div>
             </div>
@@ -220,6 +221,43 @@
               </div>
             </div>
           </div>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-5 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Coarse Grained Molecular Dynamics</h3>
+                <div>
+                  <p class="mb-4">
+                    For my Master's dissertation, I investigated methods of improving molecular dynamic simulation efficiency. I proposed a new method which divides the simulation domain, using coarser Langevin dynamics away from regions of interest and more computationally expensive molecular dynamics in regions requiring more detail (e.g. near protein-DNA binding sites). 
+                    
+                    Regrettably, I no longer have the full Fortran 90 source code I wrote for this project.
+                  </p>
+                </div>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/miles-weatherseed/Adaptive_Resolution_MD/blob/main/PartC_Dissertation.pdf">
+                  Project Report
+                </a>
+                <!-- <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a> -->
+              </div>
+            </div>
+            <div class="col-lg-7 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="/Masters%20Thesis%20Picture.fa085258.png">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
           <!-- /END Project -->
         </div>
       </div>
